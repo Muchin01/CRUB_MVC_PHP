@@ -10,7 +10,7 @@ class connected{
             print "¡Error DB!: " .$e->getMessage() . "<br/>";
            die();
         }
-    }
+    }2
 
     public function set_names(){
         return $this->dbh->query("SET NAMES 'utf8'");
